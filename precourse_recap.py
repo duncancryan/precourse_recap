@@ -16,8 +16,10 @@ if game_answer == "Yes":
         print("I have heard that game is great! I need to play it")
 else:
     user_film = input("Fair Enough! Well what is your favourite film? ")
-    if user_film == fav_film or user_film == second_fav_film:
+    if user_film == fav_film:
         print("You've got brilliant taste!")
+    elif user_film == second_fav_film
+        print("An aficionado of foreign cinema, I see!")
     else:
         print("I'll make sure to watch it!")
 print("Goodbye!")
